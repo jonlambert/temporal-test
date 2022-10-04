@@ -9,7 +9,7 @@
     "start": "ts-node src/worker.ts",
     "start.watch": "nodemon src/worker.ts",
     "workflow": "ts-node src/client.ts",
-    "confirm-booking": "ts-node src/confirm-booking.ts"
+    "confirm-booking": "ts-node src/commands/confirm-booking.ts"
   },
   "nodemonConfig": {
     "execMap": {
